@@ -4,12 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
+    <title>Challenge 3 - Extra Point</title>
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <header> </header>
-    <h1>Heading</h1>
+    <div class="container">
+      <header>
+        <img src="rocket.png" alt="Rocket">
+      <h1>Ed’s Space Exploration Satellite Status Page</h1>
+      </header>
+      <div class="box"> </div>
+      <section class = 'active-sat'>
+          <h2>Active Satellites:</h2>
+          <table>
+              <tr>
+                  <th>ID</th>
+                  <th>OWNER</th>
+                  <th>Location</th>
+                  <th>Power%</th>
+                  <th>Usage %</th>
+                  <th>Speed</th>
+                  <th>Last Update</th>
+              </tr>
+              <tr> 
+                <td> MSU </td>
+                <td> USA </td>
+                <td> Juptier - Orbit</td>
+                <td> 100%</td>
+                <td> 75% </td>
+                <td> 36 gb/s</td>
+                <td> 4-13-2024</td>
+              </tr>
+              <tr> 
+                <td> PUR</td>
+                <td> GER </td>
+                <td> Mars - On Surface</td>
+                <td> 100%</td>
+                <td> 90% </td>
+                <td> 76 gb/s</td>
+                <td> 4-10-2024</td>
+              </tr>
+              <tr> 
+                <td> UOM </td>
+                <td> SPN</td>
+                <td> Deep Space - Milky Way</td>
+                <td> 100%</td>
+                <td> 60% </td>
+                <td> 20 gb/s</td>
+                <td> 4-10-2024</td>
+              </tr>
+              <tr> 
+                <td> OSU</td>
+                <td> CAN</td>
+                <td> Pluto - Orbit</td>
+                <td> 99%</td>
+                <td> 40% </td>
+                <td> 10 gb/s</td>
+                <td> 3-30-2024</td>
+              </tr>
+              <tr> 
+                <td> IND</td>
+                <td> USA </td>
+                <td> Venus - In Atmosphere</td>
+                <td> 98%</td>
+                <td> 66% </td>
+                <td> 23 gb/s</td>
+                <td> 3-30-2024</td>
+              </tr>
+              <tr> 
+                <td> PSU </td>
+                <td> CHN </td>
+                <td> Uranus - Orbit </td>
+                <td> 100%</td>
+                <td> 90% </td>
+                <td> 55 gb/s</td>
+                <td> 3-29-2024</td>
+              </tr>
+          </table>
+      </section>
+      <section class="inactive-satellites">
+        <h2>Inactive Satellites:</h2>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>OWNER</th>
+                <th>Location</th>
+                <th>Power</th>
+                <th>Reason</th>
+                <th>Last Update</th>
+            </tr>
+            <tr> 
+              <td> NW </td>
+              <td> MEX </td>
+              <td> Unknown</td>
+              <td> 0%</td>
+              <td> Out of Range</td>
+              <td> 2-14-2024</td>
+            </tr>
+            <tr> 
+              <td> MINN</td>
+              <td> BEL</td>
+              <td> Earth Surface</td>
+              <td> 20%</td>
+              <td> Internal Damage</td>
+              <td> 2-04-2024</td>
+            </tr>
+            <tr> 
+              <td> UOI </td>
+              <td> JAP </td>
+              <td> Jupiter - Orbit </td>
+              <td> 50%</td>
+              <td> Battery Issue</td>
+              <td> 1-23-2024</td>
+            </tr>
+            <tr> 
+              <td> UON</td>
+              <td> GBR</td>
+              <td> Mars - Surface</td>
+              <td> 85%</td>
+              <td> Maintenance</td>
+              <td> 1-13-2024</td>
+            </tr>
+            <tr> 
+              <td> RUX </td>
+              <td> USA </td>
+              <td> Deep Space</td>
+              <td> 48%</td>
+              <td> Satillite Issues </td>
+              <td> 1-12-2024</td>
+            </tr>
+
+        </table>
+    </section>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
